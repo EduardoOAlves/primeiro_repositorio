@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    /*background-image: linear-gradient( #decbc5ff, #5c5a5bff);*/
+    background-color:rgb(85, 81, 81) ;
+    
+}
+.imagem{
+    width: 54.9em;
+    height: 55em;
+    margin: 0 auto;
+    background-image: url("imagens/mago.jpeg");
+    border-radius: 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+     box-shadow: 12px 29px 81px 0px rgba(2, 2, 2, 0.75);
+}
+.form{
+    padding-left:0;
+    padding-top: 2em;
+    text-align: center;
+}
+#btn{
+    width: 20%;
+    background-color: rgb(8, 68, 11);
+    color: snow;
+}
+#input_text{
+    width: 30%;
+}
+#saida{
+    margin-top: 20em;
+    margin-left: 20em;
+}
+
+h4{
+   
+    width: 10em;
+    height: 10em;
+    border-radius: 5%;
+    color: rgb(224, 9, 9);
+    background-color: rgb(240, 223, 223);
+    text-align: center;
+    opacity: 40%;
+   
+}
+@media screen and (min-width:320px) and (max-width:568px){
+
+    .imagem{
+        background-image: url("imagens/mago.jpeg");
+        width: 30em;
+        height: 30em;
+       
+
+    }
+    .form{
+        padding-left:0;
+        padding-top: 2%;
+        text-align: center;
+    }
+    #saida{
+        margin-top: 7em;
+        margin-left: 9em;
+    }
+}
